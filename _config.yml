@@ -1,4 +1,4 @@
-baseurl: '/'
+baseurl: '/website/'
 permalink: pretty
 title: 'LearningHack'
 
@@ -10,7 +10,7 @@ logo:
   desktop_height: "50px"
   desktop_width: "200px"
 
-home: 
+home:
   limit_services: 6
 
 collections:
