@@ -1,7 +1,7 @@
 ---
 title: About
 layout: about
-intro_image: "images/illustrations/about.svg"
+intro_image: "../images/illustrations/about.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
@@ -13,7 +13,3 @@ At Learning Hack, we are dedicated to being the all-female and non-binary middle
 Learning Hack is committed to empowering young women/non-binary students from diverse backgrounds. Regardless of whether they are experienced coders or new to coding, we will provide a learning environment that will build upon their skills.
 
 We will develop evolutionary learning experiences in the computer science field, building a future without gender boundaries in technology.
-
-
-<img alt="About"        class="intro-image intro-image-absolute intro-image-hide-mobile" src="images/illustrations/about.svg">
-<img alt="LearningHack" class="intro-image intro-image-absolute intro-image-hide-mobile" src="/images/illustrations/pointing.svg">
