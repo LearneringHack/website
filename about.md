@@ -1,7 +1,7 @@
 ---
 title: About
 layout: about
-intro_image: "/images/illustrations/about.svg"
+intro_image: "images/illustrations/about.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
