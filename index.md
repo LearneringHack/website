@@ -1,13 +1,16 @@
 ---
-title: Jekyll Serif Theme
+title: LearningHack
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Home page
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# Serif - A Jekyll Business Theme.
+# Hack learning
+### Build tools for students, teachers and parents
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+LearningHack is a hackathon focused on creating innovative applications to simplify the lives of students, teachers, and parents.
+
+In an all-day event, talented female/non-binary students from the Bay Area’s high and middle schools collaborate, brainstorm, and build practical solutions.
