@@ -1,16 +1,17 @@
 main:
-  # - name: "Services"
-  #   url: "/services/"
-  #   weight: 2
   - name: "Team"
     url: "/team/"
-    weight: 3
+    weight: 4
   - name: "About"
     url: "/about/"
     weight: 4
-  # - name: "Contact"
-  #   url: "/contact/"
-  #   weight: 5
+  - name: "FAQ"
+    url: "/FAQ/"
+    weight: 4
+  - name: "Sponsors"
+    url: "/#sponsors"
+  - name: "Schedule"
+    url: "/#schedule"
 
 footer:
   - name: "Home"
