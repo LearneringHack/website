@@ -47,7 +47,7 @@ bodyClass: "page-home"
 {% if site.data.sponsors %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h1>Sponsors</h1>
+    <h1>Sponsors & Partners</h1>
     <div class="row justify-content-center">
 
       {% for sponsor in site.data.sponsors %}
@@ -63,4 +63,38 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
+{% endif %}
+
+{% if site.data.schedule %}
+<section id="schedule">
+  <div class="strip strip-grey">
+    <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+      <h1>Schedule</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="table-responsive">
+              <table class="table table-borderless table-striped">
+               <thead>
+                 <tr>
+                   <th>Time</th>
+                   <th>Event</th>
+                 </tr>
+               </thead>
+               <tbody>
+               {% for schedule in site.data.schedule %}
+                 {% if schedule.entry %}
+                 <tr>
+                   <td>{{ schedule.entry.time }}</td>
+                   <td>{{ schedule.entry.activity }}</td>
+                 </tr>
+                 {% endif %}
+               {% endfor %}
+               </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
 {% endif %}

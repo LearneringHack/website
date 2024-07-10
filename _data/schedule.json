@@ -1,0 +1,14 @@
+[
+  {
+    "entry": {
+      "time": "8:00 AM",
+      "activity": "Check-in"
+    }
+  },
+  {
+    "entry": {
+      "time": "8:00 PM",
+      "activity": "Closing Ceremony"
+    }
+  }
+]
