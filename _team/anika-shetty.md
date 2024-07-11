@@ -2,7 +2,7 @@
 title: "Anika Shetty"
 date: 2018-11-19T10:47:58+10:00
 image: "images/team/anika-shetty.jpg"
-jobtitle: "Director"
+jobtitle: "Lead, Website Builder, Co-Event Manager"
 linkedinurl: "https://www.linkedin.com/in/anika-shetty/"
 promoted: true
 weight: 1
