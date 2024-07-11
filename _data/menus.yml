@@ -8,10 +8,11 @@ main:
   - name: "FAQ"
     url: "/FAQ/"
     weight: 4
-  - name: "Sponsors"
-    url: "/#sponsors"
+  - name: "Sponsor Us"
+    url: "/sponsor/"
+
   - name: "Schedule"
-    url: "/#schedule"
+    url: "#schedule"
 
 footer:
   - name: "Home"

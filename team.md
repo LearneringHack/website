@@ -9,4 +9,4 @@ intro_image_hide_on_mobile: false
 
 # Meet The Team
 
-We are Notre Dame high school students who are passionate about technology, and it's accessibility.
+We are students at Notre Dame High School San Jose who are passionate about technology and its accessibility.
