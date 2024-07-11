@@ -3,11 +3,20 @@ layout: default
 bodyClass: "page-home"
 ---
 
+<!---- social —-------->
+
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
+        <div class="social">
+           <div class="col-12">
+             <div class="row">
+               {% include social.html %}
+             </div>
+           </div>
+        </div>
         {% if page.show_call_box %}
           {% include call.html show_button=true %}
         {% endif %}
@@ -21,50 +30,67 @@ bodyClass: "page-home"
   </div>
 </div>
 
-{% if site.data.features %}
-<div class="strip">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
+<!---- schedule v2 —-------->
 
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
+{% if site.data.schedule %}
+  <section id="schedule">
+  <div class="strip strip-grey">
+    <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+      <h1>Schedule</h1>
+      <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+          <div class="schedule">
+            <table class="schedule-table">
+              {% if site.data.schedule.time and site.data.schedule.event and site.data.schedule.entries %}
+                <thead>
+                  <tr>
+                    <th>{{ site.data.schedule.time }}</th>
+                    <th>{{ site.data.schedule.event }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for entry in site.data.schedule.entries %}
+                    <tr>
+                      <td>{{ entry.time }}</td>
+                      <td>{{ entry.activity }}</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              {% endif %}
+            </table>
+          </div>
         </div>
       </div>
-      {% endfor %}
-
     </div>
   </div>
-</div>
+  </section>
 {% endif %}
 
+<!---- company logos —-------->
 
 {% if site.data.sponsors %}
+<section id="sponsors">
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h1>Sponsors & Partners</h1>
+    <h1>Sponsors</h1>
     <div class="row justify-content-center">
-
       {% for sponsor in site.data.sponsors %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
+        <div class="sponsor">
           {% if sponsor.image %}
-          <div class="feature-image"><img alt="{{ sponsor.title }} logo" src="{{ sponsor.image.url | relative_url }}" width="{{ sponsor.image.width }}" height="{{ sponsor.image.height }}" /></div>
+          <div class="sponsor-image"><img alt="{{ sponsor.title }} logo" src="{{ sponsor.image.url | relative_url }}" width="{{ sponsor.image.width }}" height="{{ sponsor.image.height }}" class="img-fluid" /></div>
           {% endif %}
         </div>
       </div>
       {% endfor %}
-
     </div>
   </div>
 </div>
+</section>
 {% endif %}
 
+
+<!---- schedule
 {% if site.data.schedule %}
 <section id="schedule">
   <div class="strip strip-grey">
@@ -98,3 +124,4 @@ bodyClass: "page-home"
   </div>
 </section>
 {% endif %}
+---->

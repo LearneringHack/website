@@ -1,0 +1,7 @@
+time: "Time"
+event: "Event"
+entries:
+  - time: "8:00 AM"
+    activity: "Check-in"
+  - time: "8:00 PM"
+    activity: "Closing Ceremony"

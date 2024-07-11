@@ -1,7 +1,14 @@
 [
  {
   "image": {
-      "url": "images/sponsors/ebay.svg",
+      "url": "images/sponsors/Foothill_College_logo.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+  "image": {
+      "url": "images/sponsors/hackclub.svg",
       "width": 80,
       "height": 80
     }
