@@ -25,7 +25,7 @@ Logo placement on event website and marketing materials\
 On-site presence at the hackathon\
 Mentorship opportunities for your employees\
 Recognition during the event and awards ceremony\
-Access to top student talent\
+Access to top student talent
 
 ### Join us in making a difference!
-To learn more about sponsorship opportunities and how your company can get involved, please email us at learninghacks2024@gmail.com.
+To learn more about sponsorship opportunities and how your company can get involved, please email us at learninghack2024@gmail.com.
