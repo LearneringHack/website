@@ -8,4 +8,4 @@ promoted: true
 weight: 2
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.
+Notre Dame High School student Anika has a passion for math. When she's not cracking math equations, she's diving into the fantastical worlds of manga and anime. Computers are easier for her than people, which is why she loves coding. And, of course, no high schooler is complete without a love for good food – especially a plate of amazing pasta!
