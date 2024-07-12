@@ -18,4 +18,4 @@ No problem.  We have you covered. In our workshops, you'll have the chance to co
 ### What do I bring?
 Please bring your laptop, charger, water bottle and your enthusiasm. Food will be provided but feel free to bring your own.
 ### More questions?
-Please email us at learningHack.gmail.com
+Please email us at learninghack2024@gmail.com
