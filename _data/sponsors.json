@@ -1,7 +1,7 @@
 [
  {
   "image": {
-      "url": "images/sponsors/foothill-college.svg",
+      "url": "images/sponsors/los-altos-hills.svg",
       "width": 80,
       "height": 80
     }
@@ -9,20 +9,6 @@
   {
   "image": {
       "url": "images/sponsors/hackclub.svg",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "image": {
-      "url": "images/sponsors/workato.svg",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "image": {
-      "url": "images/sponsors/vmware.svg",
       "width": 80,
       "height": 80
     }

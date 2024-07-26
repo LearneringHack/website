@@ -2,7 +2,7 @@
 title: "Alisha Shetty"
 date: 2018-11-19T10:47:58+10:00
 image: "images/team/alisha-shetty.png"
-jobtitle: "Fundraiser & arketer"
+jobtitle: "Fundraiser & Marketer"
 linkedinurl: "https://www.linkedin.com/example2"
 promoted: true
 weight: 2
