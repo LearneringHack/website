@@ -36,10 +36,16 @@
   }
   .call-phone {
     margin-bottom: 5px;
+    a {
+      color: $black;
+    }
   }
   .call-email {
     a {
       color: $black;
+    }
+    a:hover {
+      text-decoration: none;
     }
   }
   strong {
