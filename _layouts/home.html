@@ -78,7 +78,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="sponsor">
           {% if sponsor.image %}
-          <div class="sponsor-image"><img alt="{{ sponsor.title }} logo" src="{{ sponsor.image.url | relative_url }}" width="{{ sponsor.image.width }}" height="{{ sponsor.image.height }}" class="img-fluid" /></div>
+          <div class="sponsor-image"><a href="{{sponsor.image.link | absolute_url}}"><img alt="{{ sponsor.title }} logo" src="{{ sponsor.image.url | relative_url }}" width="{{ sponsor.image.width }}" height="{{ sponsor.image.height }}" class="img-fluid"></a></div>
           {% endif %}
         </div>
       </div>
