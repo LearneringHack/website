@@ -8,6 +8,12 @@
     "name": "Discord",
     "link": "https://discord.gg/QGBxwR8N5f",
     "image": "images/social/discord.svg"
+  },
+
+  {
+    "name": "Instagram",
+    "link": "https://www.instagram.com/learning.hack25/",
+    "image": "images/social/instagram.svg"
   }
 
 ]
