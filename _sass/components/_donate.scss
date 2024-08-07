@@ -1,0 +1,18 @@
+.donate {
+  width: 100%;
+  @include media-breakpoint-up(sm) {
+  }
+  .donate-bottom {
+    @include media-breakpoint-up(sm) {
+    }
+  }
+  .donate-text {
+    font-size: 0.8rem;
+    padding-top: 5 px;
+    padding-bottom: 5px;
+    color: #9d9c9c;
+    @include media-breakpoint-up(sm) {
+      border: none;
+    }
+  }
+}
