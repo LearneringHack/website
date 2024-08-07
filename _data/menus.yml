@@ -18,6 +18,3 @@ footer:
   - name: "Home"
     url: "/"
     weight: 1
-  # - name: "Contact"
-  #   url: "/contact/"
-  #   weight: 2
