@@ -14,6 +14,12 @@
     "name": "Instagram",
     "link": "https://www.instagram.com/learning.hack2024/",
     "image": "images/social/instagram.svg"
+  },
+
+  {
+    "name": "Devpost",
+    "link": "https://learninghack.devpost.com/",
+    "image": "images/social/devpost.svg"
   }
 
 ]
