@@ -16,6 +16,15 @@
     }
   },
   {
+
+    "image": {
+      "url": "images/sponsors/los-altos-hills.svg",
+      "width": 80,
+      "height": 80,
+      "link": "https://www.losaltoshills.ca.gov/"
+    }
+  },
+  {
   "image": {
       "url": "images/sponsors/hackclub.svg",
       "width": 80,
