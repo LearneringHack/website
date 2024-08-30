@@ -1,10 +1,18 @@
 [
- {
+  {
   "image": {
-      "url": "images/sponsors/los-altos-hills.svg",
+      "url": "images/sponsors/ebay.svg",
       "width": 80,
       "height": 80,
-      "link": "https://www.losaltoshills.ca.gov/"
+      "link": "https://www.ebay.com/"
+    }
+  },
+  {
+  "image": {
+      "url": "images/sponsors/workato.svg",
+      "width": 80,
+      "height": 80,
+      "link": "https://www.workato.com/"
     }
   },
   {
@@ -41,7 +49,7 @@
   },
   {
   "image": {
-      "url": "images/sponsors/admin.svg",
+      "url": "images/sponsors/product-teacher.svg",
       "width": 80,
       "height": 80,
       "link": "https://www.productteacher.com/"
