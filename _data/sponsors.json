@@ -26,6 +26,14 @@
   },
   {
   "image": {
+      "url": "images/sponsors/product-teacher.svg",
+      "width": 80,
+      "height": 80,
+      "link": "https://www.productteacher.com/"
+    }
+  },
+  {
+  "image": {
       "url": "images/sponsors/hackclub.svg",
       "width": 80,
       "height": 80,
@@ -54,14 +62,6 @@
       "width": 80,
       "height": 80,
       "link": "https://yarkinrealty.com/"
-    }
-  },
-  {
-  "image": {
-      "url": "images/sponsors/product-teacher.svg",
-      "width": 80,
-      "height": 80,
-      "link": "https://www.productteacher.com/"
     }
   }
 ]
